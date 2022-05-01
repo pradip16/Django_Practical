@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+    <p><b>Click on the link for API page</b></p>
+    <h2><b>Category  API</b></h2>
+        <ul>
+            <li><a href="{% url 'Category_list' %}">Category List</a> {host}/api/category/</li>
+            <li><a href="{% url 'Category_create' %}">Category Create</a> {host}/api/category/</li>
+            <li><a href="{% url 'update_Category' c_data %}">Category Update</a> {host}/api/category/update/{id}/</li>
+            <li><a href="{% url 'delete_Category' c_data %}">Category Delete</a> {host}/api/category/delete/{id}/</li>
+        </ul>
+
+    <br><br>
+    <h2><b>Product  API</b></h2>
+    <ul>
+        <li><a href="{% url 'Product_list' %}">Product List</a> {host}/api/product/</li>
+        <li><a href="{% url 'Product_create' %}">Product Create</a> {host}/api/product/</li>
+        <li><a href="{% url 'update_Product' p_data %}">Product Update</a> {host}/api/product/update/{id}/</li>
+        <li><a href="{% url 'delete_Product' p_data %}">Product Delete</a> {host}/api/product/delete/{id}/</li>
+    </ul>
+
+</body>
+</html>
