@@ -1,26 +1,8 @@
 # Django_Practical
-Write API for Create, Update, Delete category/product with following feature.
+Write API for Create, Update, Delete category/product with following feature.<br><br>
 
-1. Category  can be subcategory of other category & possibly N number of depth.check below example
-    Category 1
-		sub category  1
-			sub category
-				sub category
-				.
-				.
-				N
-			.
-			.
-			N
-		Sub category  2
-		Sub category  3
-		.
-		.
-		N
-	.
-	.
-	N
-2. Implement simple CRUD API to create product(name, price) & assign multiple categories to it
+1. Category  can be subcategory of other category & possibly N number of depth.check below example<br>
+2. Implement simple CRUD API to create product(name, price) & assign multiple categories to it<br>
 Hint: You can use django rest framework for writing api
 
 
