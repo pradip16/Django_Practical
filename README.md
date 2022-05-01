@@ -13,7 +13,7 @@ python manage.py makemigrations<br>
 python manage.py migrate<br>
 python manage.py runserver<br>
 <br><br>
-
+**http://127.0.0.1:8000/**<br><br>
 Click on the link for API page<br>
 <br>
 Category API<br>
