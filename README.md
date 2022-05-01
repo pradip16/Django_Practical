@@ -26,11 +26,11 @@ Hint: You can use django rest framework for writing api
 
 
 ## Solution
-pip install -r requirements.txt
-python manage.py makemigrations
-python manage.py migrate
-python manage.py runserver
-
+pip install -r requirements.txt<br>
+python manage.py makemigrations<br>
+python manage.py migrate<br>
+python manage.py runserver<br>
+<br><br>
 
 Click on the link for API page
 
