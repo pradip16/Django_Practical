@@ -32,18 +32,18 @@ python manage.py migrate<br>
 python manage.py runserver<br>
 <br><br>
 
-Click on the link for API page
+Click on the link for API page<br>
+<br>
+Category API<br>
+Category List **{host}/api/category/**<br>
+Category Create **{host}/api/category/**<br>
+Category Update **{host}/api/category/update/{id}/**<br>
+Category Delete **{host}/api/category/delete/{id}/**<br>
+<br><br><br>
 
-Category API
-Category List **{host}/api/category/**
-Category Create **{host}/api/category/**
-Category Update **{host}/api/category/update/{id}/**
-Category Delete **{host}/api/category/delete/{id}/**
-
-
-Product API
-Product List **{host}/api/product/**
-Product Create **{host}/api/product/**
-Product Update **{host}/api/product/update/{id}/**
-Product Delete **{host}/api/product/delete/{id}/**
+Product API<br>
+Product List **{host}/api/product/**<br>
+Product Create **{host}/api/product/**<br>
+Product Update **{host}/api/product/update/{id}/**<br>
+Product Delete **{host}/api/product/delete/{id}/**<br>
 
